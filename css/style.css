@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+body{
+    color: white;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-image: url(../assects/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px 0px 500px 0px;
+}
+.name-section{
+    color: #bdae82;
+    text-align: center;
+    font-size: 40px;
+}
+.container{
+    max-width: 1440px;
+    max-height: 400px;
+    margin: 0 auto;
+}   
+.container-skilss{
+    max-width: 1440px;
+    max-height: 482px;
+    margin: 0 auto;
+}
+.container-portfolio{
+    max-width: 1440px;
+    max-height: 1500px;
+    margin: 0 auto;
+}
+.container-video{
+    max-width: 1440px;
+    max-height: 945px;
+    margin: 0 auto;
+}
+.container-price{
+    max-width: 1440px;
+    max-height: 845px;
+    margin: 0 auto;
+}
+.conteiner-contact_me{
+    max-width: 1440px;
+    max-height: 700px;
+    margin: 0 auto;
+    background-image: url(../assects/img/contacts.jpg); 
+}
+footer{
+    max-width: 1440px;
+    max-height: 150px;
+    margin: 0 auto;
+}
+.name-section{
+    padding: 63px 0px 63px 0px;
+}
+.header-inner{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    padding: 20px 20px 0px 20px;
+}
+.header-logo{
+    padding: 25px 0px 0px 20px;
+}
+.nav-links__items{
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nav_links__items-ru{
+    color: #bdae82;
+    text-decoration: none;
+}
+.container-menu{
+    width: 350px;
+    text-align: left;
+    margin: 170px 0px 0px 0px;
+    padding: 0px 0px 170px 80px;
+    font-weight: 100;
+    color: white;
+}
+.header-slogan{
+    font-family: 'Merriweather', serif;;
+    font-size: 60px;
+    font-weight: 500;
+    margin: 0px 0px 10px 0px;
+}
+.hero-about__text{
+    font-family: 'Inter', sans-serif;
+    line-height: 40px;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: left;
+}
+.button-menu__link{
+    background-color: #BDAE82;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    padding: 10px
+}
+.container-div-skilss{
+    display: flex;
+}
+.skilss-items{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.div-skilss-text{
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding: 0px 35px 0px 40px;
+    line-height: 36px;
+}
+.div-skilss-name-text{
+    text-align: center;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    padding: 0px 35px 0px 40px;
+}
+.container-portfolio{
+    padding: 150px 0px 0px 0px;
+}
+.nav-button{
+    text-align: center;
+    padding: 0px 0px 60px 0px;
+}
+.container-portfolio-button{
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+    background-color: black;
+    height: 55px;
+    width: 220px;
+}
+.container-portfolio-button-active{
+    font-size: 20px;
+    color: black;
+    border-radius: 0px;
+    background-color: #BDAE82;
+    height: 59px;
+    width: 230px;
+}
+.portfolio-items{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.container-video{
+    padding: 00px 0px 0px 0px;
+}
+.container-div-video{
+    padding: 0px 0px 0px 20px;
+}
+.container-div-video-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 0px 0px 656px;
+}
+.container-div-price{
+    display: flex;
+}
+.price-items{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    border-width:1;
+    border-color: #BDAE82;
+    border-style: solid;
+    padding: 0px 25px 0px 25px;
+    width: 450px;
+    height: 505px;
+}
+.div-price-name{
+ text-align: center;
+ font-size: 28px;
+ font-family: 'Merriweather', serif;;
+}
+.div-price-cost{
+    text-align: center;
+    color: #BDAE82;
+    font-size: 24px;
+    font-family: 'Merriweather', serif;;
+}
+.div-price-text{
+    text-align: center;
+    font-family: 'Inter', sans-serif;;
+    line-height: 36px;
+    font-size: 18px;
+    padding: 0px 100px 0px 100px;
+}
+.div-price-button{
+    text-align: center;
+    background-color: #BDAE82;
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    padding: 15px;
+    width: 142px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-container{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+.contact-email{
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.062);
+    height: 50px;
+    width: 450px;
+}
+.name-section-contact{
+    color: #bdae82;
+    text-align: center;
+    font-size: 50px;
+    padding: 80px 20px 0px 750px;
+}
+.contact-number{
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.048);
+    height: 50px;
+    width: 450px;
+}
+.contact-text{
+    font-size: 20px;
+    font-weight: 400;
+    color: #bdae82;
+    border: 2px solid #BDAE82;
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 100px;
+    width: 450px;
+}
+.contact-button{
+    background-color: #BDAE82;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Inter', sans-serif;;
+    font-size: 20px;
+    padding: 15px
+}
+.div-footer{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 75px 0px 75px 0px;
+}
+.p-footer{
+    padding: 25px 0px 0px 20px;
+}
